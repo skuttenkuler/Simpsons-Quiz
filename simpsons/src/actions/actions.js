@@ -20,7 +20,7 @@ export const updateCurrentQuestion = currentQuestion => {
     };
 };
 
-export const resetGames = () => {
+export const resetGame = () => {
     return {
         type: 'RESET_GAME'
     };
